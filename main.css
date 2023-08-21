@@ -1,0 +1,142 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1.logo {
+  font-size: 36px;
+}
+
+.header h2 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff9900;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+/* Style the about section */
+.about {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.about h3 {
+  font-size: 24px;
+}
+
+.about-text {
+  margin: 10px 0;
+}
+
+/* Style the main content */
+.main {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.product-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  width: 30%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+}
+
+.product p.name {
+  font-weight: bold;
+}
+
+.product p.cost {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Style the location section */
+.location {
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.location img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin: 5px 0;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #ff9900;
+}
+
+.footer-logo h4 {
+  font-size: 24px;
+}
+
+.site-links {
+  margin-top: 20px;
+}
+
+.acknowledgement,
+.copyright {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.site-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #ff9900;
+}
+body {
+  width: 1024px;}
